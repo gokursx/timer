@@ -1,4 +1,4 @@
-
+//timer.js
 const inputArgs = process.argv.slice(2).filter(time => !isNaN(time) && time >= 0);
 
 inputArgs.forEach((time) => {
